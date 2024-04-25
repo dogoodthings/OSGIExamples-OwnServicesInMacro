@@ -1,2 +1,10 @@
 # OSGIExamples-OwnServicesInMacro
 enhance ECTR Macros with own GenericService implementations
+
+Example ECTR macro code:
+
+`service = GET_SERVICE('com.dscsag.plm.spi.interfaces.services.GenericService', 'dogoodthings.GenericExampleService')
+configuration = service.configurationBuilder().p1('A').p2('B').p3('C').p4('D').build()
+result = service.execute(configuration)
+resultObject = result.get()
+REPORT(resultObject.getResult())`
