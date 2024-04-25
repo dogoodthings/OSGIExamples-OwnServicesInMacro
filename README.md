@@ -1,4 +1,7 @@
 # OSGIExamples-OwnServicesInMacro
+
+Since: S4 1.2.1.0
+
 enhance ECTR Macros with own GenericService implementations
 
 Example ECTR macro code:
